@@ -7,3 +7,15 @@ export default function getNeighborhoodsList() {
     return self.sanFranciscoNeighborhoods;
   };
 }
+
+
+
+// export default (myguy) => {
+//   this.me = ['sam', 'me']
+
+//   const self = this;
+//   this.addmyguy = (newmyguy) => {
+//     self.myguy.push(newmyguy);
+//     return self.me;
+//   }
+// }

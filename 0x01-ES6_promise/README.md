@@ -1,6 +1,6 @@
 # ES6 Promises - Javascript
 
-![](https://raw.githubusercontent.com/yingshandeng/image-host/master/data/do-you-promise.png)
+![es6 promise image](https://raw.githubusercontent.com/yingshandeng/image-host/master/data/do-you-promise.png)
 
 A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.[read more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
@@ -35,17 +35,22 @@ A Promise is a proxy for a value not necessarily known when the promise is creat
 
 - Machine ubuntu 18.04 LTS
     To install node on your ubuntu machine
+
 ```bash
-$ sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs
 ```
+
 - NodeJs v12.22.12
 - npm v6.14.16
 - insatalling __jest, babel, eslint__
+
 ```bash
-$ npm install --save-dev eslint jest
-$ npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/cli
+npm install --save-dev eslint jest
+npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/cli
 ```
+
 - create a file called __package.json__ then copy-paste the following code
+
 ```json
 {
   "scripts": {
@@ -68,7 +73,8 @@ $ npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/cli
 }
 ```
 
--  create a file called __babel.config.js__ then copy paste the following code
+- create a file called __babel.config.js__ then copy paste the following code
+
 ```js
 module.exports = {
   presets: [
@@ -83,7 +89,9 @@ module.exports = {
   ],
 };
 ```
+
 - copy paste this into a file __utils.js__
+
 ```js
 export function uploadPhoto() {
   return Promise.resolve({
@@ -100,4 +108,15 @@ export function createUser() {
   });
 }
 ```
+
 - copy-paste this in a file called __.eslintrc.js__
+
+[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+[JavaScript Promise: An introduction](https://web.dev/articles/promises)
+
+[Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
+
+[Async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+[Throw / Try](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)

@@ -1,12 +1,12 @@
 {
-  "name": "task_4",
+  "name": "typescript_dependencies",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack-dev-server --open",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",

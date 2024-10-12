@@ -1,3 +1,4 @@
+// react interface
 namespace Subjects {
   export interface Teacher {
     experienceTeachingReact?: number;

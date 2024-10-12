@@ -1,3 +1,4 @@
+// teachers interface
 namespace Subjects {
   export interface Teacher {
     firstName: string;
